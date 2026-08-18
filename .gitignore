@@ -1,0 +1,44 @@
+# Root .gitignore for Library Management System
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# IDE / Editor Files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+.sts4-cache
+.metadata/
+
+# Frontend (React)
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+frontend/.pnp
+frontend/.pnp.js
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Backend (Spring Boot / Maven)
+backend/LibraryManagementSystem/target/
+backend/LibraryManagementSystem/.mvn/wrapper/maven-wrapper.jar
+backend/LibraryManagementSystem/bin/
+backend/LibraryManagementSystem/.apt_generated
+backend/LibraryManagementSystem/build/
